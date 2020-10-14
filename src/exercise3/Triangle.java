@@ -14,8 +14,8 @@ public class Triangle{
     double c = input.nextDouble();
 
     if(a+b>c && a+c>b && b+c>a && a>0 && b>0 && c>0){
-      double P = (a+b+c)/2;
-      double Area= Math.sqrt(P*(P-a)*(P-b)*(P-c));
+      double P = (a+b+c)/2.0;
+      double Area= Math.sqrt((P*(P-a)*(P-b)*(P-c)));
       System.out.println("Area: " + Area);
       if(a==b && b==c){
         System.out.println("Triangle: equilateral");
