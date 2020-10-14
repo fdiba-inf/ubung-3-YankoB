@@ -5,7 +5,7 @@ import java.lang.Math;
 
 public class Triangle{
 
-  public static void main(String[] arga){
+  public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
     do{
