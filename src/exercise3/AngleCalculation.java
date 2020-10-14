@@ -19,7 +19,7 @@ public class AngleCalculation{
     }
     else if(b=='d'){
       double Rad = a*Math.PI/180.0;
-      System.out.println("Angel: " + Rad + "r");
+      System.out.println("Angel: " + Rad);
       a= input.nextDouble();
       b= input.next().charAt(0);
     }else{
