@@ -9,7 +9,7 @@ public class NumberSearch {
        System.out.print(a+" ");
        anzahl++;
        if(anzahl==10){
-         System.out.println("");
+         System.out.print("\n");
          anzahl=0;
        }
      }
