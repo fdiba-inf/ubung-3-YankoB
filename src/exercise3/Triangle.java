@@ -8,10 +8,18 @@ public class Triangle{
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
+    double a;
+    double b;
+    double c;
+
     do{
-    double a = input.nextDouble();
-    double b = input.nextDouble();
-    double c = input.nextDouble();
+    double a1 = input.nextDouble();
+    double b1 = input.nextDouble();
+    double c1 = input.nextDouble();
+
+    a=a1;
+    b=b1;
+    c=c1;
 
     if(a+b>c && a+c>b && b+c>a && a>0 && b>0 && c>0){
       double P = (a+b+c)/2.0;
