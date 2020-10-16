@@ -21,7 +21,7 @@ public class Triangle{
     b=b1;
     c=c1;
 
-    if(a+b>c && a+c>b && b+c>a && a>0 && b>0 && c>0){
+    if(a+b>c && a+c>b && b+c>a){
       double P = (a+b+c)/2.0;
       double Area = Math.sqrt((P*(P-a)*(P-b)*(P-c)));
       System.out.println("Area: " + Area);
@@ -35,6 +35,6 @@ public class Triangle{
     }else{
       System.out.println("Values are not correct!");
      }
-    }while(true);
+    }while(a>0 && b>0 && c>0);
   }
 }
